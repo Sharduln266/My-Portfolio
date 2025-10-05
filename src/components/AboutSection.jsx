@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import CV from "../assets/Shardul_CV.pdf"; // CV 
 
 export const AboutSection = () => {
   return (
@@ -12,20 +13,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer & Problem Solver
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+          Skilled in building responsive and interactive web applications using modern technologies. 
+          Experienced in developing personal and academic projects that focus on 
+          performance, accessibility, and usability.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            "I love creating elegant solutions to complex problems and continually learning new technologies 
+            to stay ahead in web development.
+            
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +35,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="Shardul_CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -79,10 +79,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Emphasize Problem-Solving</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Played a key role in problem-solving and 
+                    task coordination during project cycles
                   </p>
                 </div>
               </div>

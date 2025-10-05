@@ -3,33 +3,28 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "A Banking Application ",
+    description: "A simple banking application to manage accounts, transactions, and user balances efficiently.",
+    image: "/projects/project11.jpg",
+    tags: ["JAVA", "SQL"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "TO-DO LIST",
+    description: <div>
+        &#9679; A To-Do list app to create, edit, and track tasks efficiently.
+      <h1>  &#9679; Simple task management application to organize daily activities and mark completed tasks. </h1>
+      <h1>  &#9679; A user-friendly To-Do list for adding, updating, and completing tasks </h1>
+            </div>,
+
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["TypeScript", "Raect.js", "HTML/CSS"],
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+
 ];
 
 export const ProjectsSection = () => {
@@ -42,8 +37,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+         These are some of my recent projects, such as a banking app and a To-Do list, 
+         developed with attention to user experience and efficient performance.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +95,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https:/github.com/Sharduln266"
           >
             Check My Github <ArrowRight size={16} />
           </a>
